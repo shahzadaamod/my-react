@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Product Engineering",
+        "content": [
+            { "text": "Digital Application Development", "link": "/product-engineering/digital-application-development" },
+            { "text": "Mobile Engineering", "link": "/product-engineering/mobile-engineering" },
+            { "text": "IoT & Wearables Solutions", "link": "/product-engineering/iot-and-wearables-solutions" },
+            { "text": "Quality Engineering", "link": "/product-engineering/quality-engineering-and-automation" }
+        ],
+        "imgSrc": "assets/images/blog1.png",
+        "imgAlt": "Product Engineering"
+    },
+    {
+        "title": "Digital Experience",
+        "content": [
+            { "text": "Product Strategy & Consulting", "link": "/digital-experience/product-strategy-and-consulting" },
+            { "text": "Product Design", "link": "/digital-experience/product-design" },
+            { "text": "Product Management", "link": "/digital-experience/product-management" }
+        ],
+        "imgSrc": "https://d1ugv6dopk5bx0.cloudfront.net/s3fs-public/Digital%20Experience%20(3).webp",
+        "imgAlt": "Digital Experience"
+    },
+    {
+        "title": "AI & ML",
+        "content": [
+            { "text": "Utilitarian AI", "link": "./ai-ml/utilitarian-ai" },
+            { "text": "Predictive Analytics", "link": "./ai-ml/predictive-analytics" },
+            { "text": "Generative AI", "link": "./ai-ml/generative-ai" },
+            { "text": "Machine Learning", "link": "./ai-ml/machine-learning" }
+        ],
+        "imgSrc": "https://d1ugv6dopk5bx0.cloudfront.net/s3fs-public/acc-3.webp",
+        "imgAlt": "AI & ML"
+    },
+    {
+        "title": "SAP",
+        "content": [
+            { "text": "S/4HANA Implementations", "link": "/sap-application-services/s4-hana-implementations" },
+            { "text": "SAP AMS Support", "link": "/sap-application-services/ams-support-services" },
+            { "text": "SAP Automation", "link": "/sap-application-services/automation-services" },
+            { "text": "SAP Security & GRC", "link": "/sap-application-services/security-and-grc-services" },
+            { "text": "SAP Value Added Solutions", "link": "/sap-application-services/value-added-solutions" },
+            { "text": "Other SAP Implementations", "link": "/sap-application-services/other-implementations" }
+        ],
+        "imgSrc": "https://d1ugv6dopk5bx0.cloudfront.net/s3fs-public/SAP%20(2)_0.webp",
+        "imgAlt": "SAP Services"
+    },
+    {
+        "title": "Data Science & Engineering",
+        "content": [
+            { "text": "Data Engineering", "link": "/data-science-engineering/data-engineering" },
+            { "text": "Data Science", "link": "/data-science-engineering/data-science" },
+            { "text": "Visualization & Analytics", "link": "/data-science-engineering/visualization-and-analytics" },
+            { "text": "Integration & API", "link": "/data-science-engineering/integration-and-api" },
+            { "text": "RPA", "link": "/data-science-engineering/automation-and-rpa" }
+        ],
+        "imgSrc": "https://d1ugv6dopk5bx0.cloudfront.net/s3fs-public/Data%20Science%20%26%20Engineering.webp",
+        "imgAlt": "Data Science & Engineering"
+    },
+    {
+        "title": "Cloud Engineering",
+        "content": [
+            { "text": "Cloud Consulting", "link": "/cloud-engineering/cloud-consulting" },
+            { "text": "Cloud Migration", "link": "/cloud-engineering/cloud-migration" },
+            { "text": "Cloud Managed Services", "link": "/cloud-engineering/cloud-managed-services" },
+            { "text": "DevSecOps", "link": "/cloud-engineering/devsecops" }
+        ],
+        "imgSrc": "https://d1ugv6dopk5bx0.cloudfront.net/s3fs-public/Cloud.webp",
+        "imgAlt": "Cloud Engineering"
+    }
+]

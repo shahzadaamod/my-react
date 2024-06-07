@@ -1,0 +1,893 @@
+/* src/components/Header.css */
+.header {
+    background-color: var(--color-primary) !important;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+
+
+
+  header#navbar.fixed, header#navbar.change-header-bg {
+    background-color: var(--color-primary) !important;
+}
+
+.bgheader, .headerBg {
+  background-color:var(--color-primary) !important;
+}
+
+
+    :root {
+    --color-primary: #231942;
+    --color-secondry: #483892;
+}
+header#navbar.fixed, header#navbar.change-header-bg {
+    background-color: var(--color-primary)!important;
+}
+.bg-sage {
+    background-color: var(--color-secondry)!important;
+}
+header#navbar #block-sitebranding a{min-width:initial; max-width:initial!important}
+    body{font-family: "Roboto", sans-serif;}
+
+.new-home-insights .main{margin-right: 0px;}
+    .roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.services-bl-wrapper .content-wrapper .content-inner {
+  max-width: 100%;
+}
+
+.services-bl-wrapper .contents-wrapper{max-width:100%}
+
+.accordion-wrap .accordion{ font-family: "Roboto", sans-serif;}
+
+.outer-container .container .reason-wrap {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* .outer-container {
+    background: url('/assets/images/large-bg.png') no-repeat top center;
+    background-size: cover;
+} */
+
+.outer-container .container .reason-wrap .reason-grid{margin-top:60px}
+
+
+#block-mainnavigation-menu {
+  display: none
+}
+
+.bgheader,
+.headerBg {
+  background-color: var(--color-primary)
+}
+
+header#navbar {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  padding: 15px 0;
+  transition: 0.3s all
+}
+
+header#navbar a {
+  display: inline-block
+}
+
+header#navbar #block-sitebranding a {
+  font-size: 0;
+  display: block;
+  max-width: 192px;
+  min-width: 192px
+}
+
+header#navbar #block-smpsitebranding a {
+  max-width: 192px;
+  min-width: 192px
+}
+
+header#navbar #block-smpsitebranding .smp-right-btn a {
+  max-width: unset;
+  min-width: unset
+}
+
+header#navbar.fixed,
+header#navbar.change-header-bg {
+  background-color: var(--color-primary)
+}
+
+header#navbar .region-navigation {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center
+}
+
+header#navbar .region-navigation nav {
+  margin-left: auto
+}
+
+header#navbar .region-navigation nav .c-menu-main {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  list-style: none;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item {
+  margin-left: 40px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item.open-menu>a {
+  position: relative
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item.open-menu>a::after {
+  content: "";
+  content: "";
+  position: absolute;
+  bottom: -21px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-color: transparent transparent #fff transparent;
+  border-style: solid;
+  border-width: 12px;
+  width: 12px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu {
+  display: none;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 62px;
+  padding: 40px 0 60px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu::after {
+  background-color: var(--color-primary);
+  content: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0px;
+  height: 62px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:first-child {
+  width: 77%
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6 {
+  font-size: 14px;
+  cursor: inherit
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li {
+  width: 33.333%;
+  margin-top: 20px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li a {
+  position: relative
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li a::after {
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  content: "";
+  height: 16px;
+  width: 18px;
+  transition: 0.3s all;
+  opacity: 0
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li a:hover::after {
+  transform: translateX(15px);
+  opacity: 1
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:first-child a:hover {
+  color: #CC5B5B
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:first-child a:hover::after {
+  background: url("https://cdn.kellton.com/s3fs-public/red-arrow.webp") no-repeat center center
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(2) a:hover {
+  color: #645790
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(2) a:hover::after {
+  background: url("https://cdn.kellton.com/s3fs-public/iris-arrow.webp") no-repeat center center
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(3) a:hover {
+  color: #BA7E3C
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(3) a:hover::after {
+  background: url("https://cdn.kellton.com/s3fs-public/orange-arrow.webp") no-repeat center center
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(4) a:hover {
+  color: #374C8F
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(4) a:hover::after {
+  background: url("https://cdn.kellton.com/s3fs-public/blue-arrow.webp") no-repeat center center
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(5) a:hover {
+  color: #56796C
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(5) a:hover::after {
+  background: url("https://cdn.kellton.com/s3fs-public/green-arrow.webp") no-repeat center center
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(6) a:hover {
+  color: #CC5B5B
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li:nth-child(6) a:hover::after {
+  background: url("https://cdn.kellton.com/s3fs-public/red-arrow.webp") no-repeat center center
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li>a {
+  font-size: 20px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li>a+ul {
+  margin-bottom: 15px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li>a+ul>li a {
+  position: relative
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li>a+ul>li a::after {
+  background: url("https://cdn.kellton.com/s3fs-public/arrow-right.webp") no-repeat center center !important;
+  height: 14px;
+  width: 14px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li>a+ul>li a:hover {
+  color: #222222 !important
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li>h6+ul.level2:not(.level3)>li>a+ul>li a:hover::after {
+  transform: translateX(15px);
+  opacity: 1
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child {
+  padding-left: 6%;
+  border-left: 1px solid #BEBEBE;
+  width: 22%
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li>a {
+  font-size: 20px;
+  position: relative;
+  margin-top: 20px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li>a::after {
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  content: "";
+  height: 16px;
+  width: 18px;
+  transition: 0.3s all;
+  opacity: 0;
+  background: url("https://cdn.kellton.com/s3fs-public/arrow-right.webp") no-repeat center center !important
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li>a:hover::after {
+  opacity: 1;
+  transform: translateX(15px)
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li>a+ul {
+  margin-bottom: 15px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li>a+ul li a {
+  position: relative
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li>a+ul li a::after {
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  content: "";
+  transition: 0.3s all;
+  opacity: 0;
+  background: url("https://cdn.kellton.com/s3fs-public/arrow-right.webp") no-repeat center center !important;
+  height: 14px;
+  width: 14px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li>a+ul li a:hover {
+  color: #222222 !important
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li>a+ul li a:hover::after {
+  transform: translateX(15px);
+  opacity: 1
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li.c-menu-main__item--expanded+li:last-child {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #000;
+  padding: 9px 14px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li.c-menu-main__item--expanded+li:last-child a {
+  margin: 0;
+  font-size: 17px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li.c-menu-main__item--expanded+li:last-child a:hover {
+  color: inherit
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child>ul>li.c-menu-main__item--expanded+li:last-child a::after {
+  content: none
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.menu-box.level0.level1.level2.level3 {
+  flex-wrap: wrap
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li {
+  width: 33%;
+  padding-left: 0;
+  border-left: none
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li>a {
+  font-size: 16px;
+  pointer-events: inherit;
+  cursor: pointer;
+  position: relative
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li>a::after {
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  content: "";
+  transition: 0.3s all;
+  opacity: 0;
+  background: url("https://cdn.kellton.com/s3fs-public/arrow-right.webp") no-repeat center center !important;
+  height: 14px;
+  width: 14px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li>a:hover {
+  color: #222222 !important
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li>a:hover::after {
+  transform: translateX(15px);
+  opacity: 1
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu .c-menu-main__item a {
+  color: #505050;
+  margin-bottom: 6px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu .c-menu-main__item {
+  margin-left: 0
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item.open-menu .service-mega-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(2) .service-mega-menu>div>.c-menu-main__submenu>li:last-child,
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(3) .service-mega-menu>div>.c-menu-main__submenu>li:last-child {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+  color: #000;
+  padding: 9px 14px !important;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  width: 164px !important
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(2) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a,
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(3) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a {
+  margin: 0;
+  font-size: 17px
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(2) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a:hover,
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(3) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a:hover {
+  color: inherit
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(2) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a::after,
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(3) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a::after {
+  content: none !important;
+  background: none !important
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:last-child .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li {
+  width: 25%
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:last-child .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li.c-menu-main__item.c-menu-main__item--expanded {
+  width: 100%
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:last-child .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li.c-menu-main__item.c-menu-main__item--expanded>h6 {
+  margin-top: 24px;
+  font-size: 14px;
+  color: #222;
+  cursor: auto
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:last-child .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li.c-menu-main__item.c-menu-main__item--expanded ul li {
+  width: 25%
+}
+
+header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:last-child .service-mega-menu>div>.menu-box.level0.level1.level2.level3>li.c-menu-main__item.c-menu-main__item--expanded ul li a {
+  font-size: 16px;
+  pointer-events: inherit;
+  cursor: pointer;
+  position: relative;
+  margin-top: 4px
+}
+
+header#navbar .search-btn {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center
+}
+
+header#navbar .search-btn a {
+  font-size: 0;
+  background: url("https://cdn.kellton.com/s3fs-public/search-white.webp") no-repeat center center;
+  height: 32px;
+  width: 36px;
+  margin-left: 28px
+}
+
+@media screen and (min-width:992px) {
+  .service-mega-menu {
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1)
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1279px) {
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:first-child {
+      width: 65%
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu>li:last-child {
+      width: 35%
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu li>h6+ul.level2:not(.level3)>li {
+      width: 50%
+  }
+}
+
+@media screen and (max-width:992px) {
+  .body-fix {
+      overflow: hidden
+  }
+  .body-fix header {
+      background-color: var(--color-primary)
+  }
+  header#navbar .region-navigation {
+      display: block;
+      position: relative
+  }
+  header#navbar .region-navigation .search-btn {
+      position: absolute;
+      top: 0;
+      right: 40px
+  }
+  header#navbar .region-navigation #block-sitebranding {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+      justify-content: space-between;
+      -ms-flex-pack: space-between;
+      align-items: center
+  }
+  header#navbar .region-navigation #block-sitebranding .humburger-menu {
+      height: 24px;
+      width: 24px;
+      margin-top: 0px;
+      right: 0;
+      position: absolute
+  }
+  header#navbar .region-navigation #block-sitebranding .humburger-menu span {
+      background-color: #fff;
+      display: block;
+      margin: 5px 0;
+      height: 3px;
+      transition: 0.5s all
+  }
+  header#navbar .region-navigation #block-sitebranding .humburger-menu.cross span:first-child {
+      transform: rotate(45deg);
+      transform-origin: 3px -1px
+  }
+  header#navbar .region-navigation #block-sitebranding .humburger-menu.cross span:nth-child(2) {
+      opacity: 0;
+      transform: translateX(20px)
+  }
+  header#navbar .region-navigation #block-sitebranding .humburger-menu.cross span:last-child {
+      transform: rotate(-45deg);
+      transform-origin: -3px 1px
+  }
+  header#navbar .region-navigation nav {
+      position: fixed;
+      left: 0;
+      right: 0;
+      padding: 0 15px;
+      transform: translateX(100%);
+      background-color: #fff;
+      transition: 0.3s all;
+      top: 60px
+  }
+  header#navbar .region-navigation nav .c-menu-main {
+      display: block;
+      overflow-y: scroll;
+      padding-bottom: 140px
+  }
+  header#navbar .region-navigation nav .c-menu-main.level0:not(.level1,
+  .level2,
+  .level3,
+  .level4) .c-menu-main__item .c-menu-main__link {
+      font-size: 20px;
+      padding: 16px 0;
+      font-weight: 600
+  }
+  header#navbar .region-navigation nav .c-menu-main .level0.level1 .c-menu-main__item .c-menu-main__link {
+      font-size: 16px
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item {
+      margin-left: 0
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item a {
+      color: #222222
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu {
+      background-color: transparent;
+      padding: 0
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container {
+      padding: 0
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu {
+      display: block
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li {
+      width: 100% !important;
+      padding-left: 0 !important;
+      border-left: none !important
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6 {
+      display: none
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6+ul {
+      display: block
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6+ul>li {
+      position: relative;
+      width: 100% !important;
+      margin-top: 0 !important
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6+ul>li .c-menu-main__submenu {
+      display: none
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6+ul>li a {
+      margin-top: 0 !important;
+      font-size: 16px !important;
+      padding: 19px 0;
+      font-weight: 600
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6+ul>li a:hover {
+      color: #222222
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6+ul>li a::after {
+      content: none !important
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6+ul>li.expend-menu .menu-arrow {
+      transform: rotate(0deg)
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6+ul>li.expend-menu .c-menu-main__submenu {
+      display: block
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu>div>.c-menu-main__submenu li:last-child ul>li.c-menu-main__item--expanded+li:last-child {
+      position: relative;
+      border: none;
+      padding: 0;
+      bottom: auto;
+      width: 100%
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu>div>.c-menu-main__submenu li:last-child ul>li.c-menu-main__item--expanded+li:last-child a {
+      padding: 19px 0;
+      color: #374C8F
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item.expend-menu>.service-mega-menu {
+      display: block
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(2) .service-mega-menu>div>.c-menu-main__submenu>li:last-child,
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(3) .service-mega-menu>div>.c-menu-main__submenu>li:last-child {
+      position: relative;
+      border: none;
+      padding: 0 !important;
+      bottom: auto;
+      width: 100% !important;
+      border: none !important
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(2) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a,
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(3) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a {
+      padding: 19px 0 !important;
+      color: #374C8F
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(2) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a:hover,
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(3) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a:hover {
+      color: inherit
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(2) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a::after,
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-of-type(3) .service-mega-menu>div>.c-menu-main__submenu>li:last-child a::after {
+      content: none !important;
+      background: none !important
+  }
+  header#navbar .region-navigation nav.menu-slide-left {
+      transform: translateX(0%);
+      overflow-y: auto;
+      height: 100vh;
+      padding-bottom: 100px
+  }
+  header#navbar .region-navigation nav .c-menu-main>li {
+      position: relative
+  }
+  header#navbar .region-navigation nav .c-menu-main>li a {
+      padding: 10px 0;
+      display: block !important;
+      border-bottom: 1px solid #b1a5a5;
+      margin-bottom: 0 !important
+  }
+  header#navbar .region-navigation nav .c-menu-main>li>.menu-arrow {
+      position: absolute;
+      right: 0;
+      height: 62px;
+      top: 0px;
+      left: 0
+  }
+  header#navbar .region-navigation nav .c-menu-main>li>.menu-arrow::after {
+      position: absolute;
+      right: 0;
+      content: "";
+      width: 52px;
+      height: 62px;
+      background: #fff url("https://cdn.kellton.com/s3fs-public/caret-top.webp") no-repeat center center;
+      transform: rotate(180deg)
+  }
+  header#navbar .region-navigation nav .c-menu-main>li.expend-menu>.menu-arrow::after {
+      transform: rotate(0deg)
+  }
+  header#navbar .region-navigation nav .c-menu-main>li.expend-menu .service-mega-menu {
+      opacity: 1;
+      display: block;
+      position: static;
+      visibility: visible
+  }
+  header#navbar .region-navigation nav .c-menu-main>li.expend-menu .service-mega-menu::after {
+      content: none
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__submenu>li {
+      position: relative
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__submenu>li a {
+      padding: 10px 0;
+      display: block !important;
+      border-bottom: 1px solid #b1a5a5;
+      margin-bottom: 0 !important
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__submenu>li>.menu-arrow {
+      background: #fff url("https://cdn.kellton.com/s3fs-public/caret-top.webp") no-repeat center center;
+      position: absolute;
+      right: 0;
+      width: 52px;
+      height: 62px;
+      transform: rotate(180deg);
+      top: 0px
+  }
+}
+
+@media screen and (max-width:992px) {
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item>.service-mega-menu .container>.c-menu-main__submenu>li>h6+ul>li.expend-menu .c-menu-main__submenu.level2.level3 li.c-menu-main__item {
+      padding: 0 28px
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-child(6) .service-mega-menu>div>.c-menu-main__submenu>li:last-child h6 {
+      margin-top: 0;
+      font-size: 16px;
+      padding: 19px 0;
+      font-weight: 600;
+      color: #505050;
+      display: block;
+      border-bottom: 1px solid #b1a5a5;
+      margin-bottom: 0
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-child(6) .service-mega-menu>div>.c-menu-main__submenu>li:last-child ul.level0.c-menu-main__submenu.level3.level1.o-menu.level2 {
+      display: none
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-child(6) .service-mega-menu>div>.c-menu-main__submenu>li:last-child ul.level0.c-menu-main__submenu.level3.level1.o-menu.level2 li a {
+      margin-top: 0;
+      font-size: 16px;
+      padding: 19px 0;
+      font-weight: 600;
+      color: #505050;
+      display: block;
+      border-bottom: 1px solid #b1a5a5;
+      margin-bottom: 0;
+      text-decoration: none
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-child(6) .service-mega-menu>div>.c-menu-main__submenu>li:last-child ul.level0.c-menu-main__submenu.level3.level1.o-menu.level2.activeSubLink {
+      display: block
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-child(6) .service-mega-menu>div>.c-menu-main__submenu li:last-child .menu-arrow {
+      height: 60px
+  }
+  header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-child(6) .service-mega-menu>div>.c-menu-main__submenu li:last-child.expend-menu .menu-arrow {
+      transform: rotate(0deg);
+      height: 60px
+  }
+}

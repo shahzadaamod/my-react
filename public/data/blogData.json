@@ -1,0 +1,34 @@
+[
+    {
+      "imageUrl": "assets/images/blog3.png",
+      "title": "Top 8 API integration tools to drive digital transformation in 2024",
+      "date": "May 20, 2024"
+    },
+    {
+      "imageUrl": "assets/images/blog1.png",
+      "title": "Understanding Application Managed Services: A deep dive",
+      "date": "May 16, 2024"
+    },
+    {
+      "imageUrl": "assets/images/blog2.png",
+      "title": "Infrastructure as Code (IaC): The complete beginner’s guide explained here",
+      "date": "May 22, 2024"
+    },
+    {
+        "imageUrl": "assets/images/blog3.png",
+        "title": "Top 8 API integration tools to drive digital transformation in 2024",
+        "date": "May 20, 2024"
+      },
+      {
+        "imageUrl": "assets/images/blog1.png",
+        "title": "Understanding Application Managed Services: A deep dive",
+        "date": "May 16, 2024"
+      },
+      {
+        "imageUrl": "assets/images/blog2.png",
+        "title": "Infrastructure as Code (IaC): The complete beginner’s guide explained here",
+        "date": "May 22, 2024"
+      }
+
+  ]
+  

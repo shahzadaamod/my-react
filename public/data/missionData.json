@@ -1,0 +1,35 @@
+[
+    {
+      "imageUrl": "assets/images/Mask group.png",
+      "alt": "Global mindset",
+      "width": "298",
+      "height": "300",
+      "title": "Global mindset",
+      "subtitle": "Tech-agnostic service provider"
+    },
+    {
+      "imageUrl": "assets/images/Mask group-1.png",
+      "alt": "ERP Stack",
+      "width": "298",
+      "height": "300",
+      "title": "ERP Stack",
+      "subtitle": "SAP Authorized Partner"
+    },
+    {
+      "imageUrl": "assets/images/Mask group-2.png",
+      "alt": "24X7 availability",
+      "width": "298",
+      "height": "300",
+      "title": "24X7 availability",
+      "subtitle": "Off-shore, on-shore and nearshore capability centers"
+    },
+    {
+      "imageUrl": "assets/images/Mask group-3.png",
+      "alt": "Agile & nimble",
+      "width": "298",
+      "height": "300",
+      "title": "Agile & nimble",
+      "subtitle": "Right-sized to cater to Startups & Fortune 500"
+    }
+  ]
+  

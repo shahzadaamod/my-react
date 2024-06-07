@@ -1,0 +1,34 @@
+.accordion-images img {
+    display: none;
+  }
+  
+  .accordion-images img.show {
+    display: block;
+  }
+
+  /* .slick-prev,
+.slick-next {
+  display: none!important;
+} */
+
+.accordion-home-wrap h2{max-width: 100%; text-align: center;}
+
+.accordion-home-wrap .panel{display: grid;}
+
+.accordion-home-wrap {
+  padding: 60px 0 60px;
+}
+
+.home-mission {
+  padding: 70px 0 0;
+  background: var(--color-secondry);
+  color: white;
+}
+
+.home-mission h2, .home-mission p, .home-mission .content .item .text p {
+  color: white;
+}
+
+.home-mission .content .item img {
+  border: 1px solid white;
+}

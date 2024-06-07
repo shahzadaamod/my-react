@@ -1,43 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Web site created using create-react-app">
+  
+  <link rel="icon" href="%PUBLIC_URL%/favicon.png">
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <link rel="stylesheet" media="all" href="assets/css/style1.css" />
+  <link rel="stylesheet" media="all" href="assets/css/style2.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    
+    <link href="assets/css/main.css">
+    
+  <title>React App</title>
+</head>
+
+<body class="path-frontpage">
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <script src="https://releases.jquery.com/git/jquery-git.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script2.js"></script>
+</body>
+<script>
+    $(document).ready(function() {
+        $('.c-menu-main__link').click(function(event) {
+            event.preventDefault();
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+            var $currentMenu = $(this).next('.service-mega-menu');
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+            // Hide all other mega menus
+            $('.service-mega-menu').not($currentMenu).css({
+                'opacity': '0',
+                'display': 'none',
+                'visibility': 'hidden'
+            });
+
+            // Toggle the visibility of the current mega menu
+            if ($currentMenu.css('display') === 'none') {
+                $currentMenu.css({
+                    'opacity': '1',
+                    'display': 'block',
+                    'visibility': 'visible'
+                });
+            } else {
+                $currentMenu.css({
+                    'opacity': '0',
+                    'display': 'none',
+                    'visibility': 'hidden'
+                });
+            }
+        });
+
+        $(document).click(function(event) {
+            if (!$(event.target).closest('.c-menu-main__link, .service-mega-menu').length) {
+                $('.service-mega-menu').css({
+                    'opacity': '0',
+                    'display': 'none',
+                    'visibility': 'hidden'
+                });
+            }
+        });
+    });
+
+    
+</script>
+<script>
+    var $=jQuery;jQuery(document).ready(function(e){e(window).on("popstate",function(){location.reload(!0)})}),$(window).scroll(function(){$(window).scrollTop()>=60?$("header").addClass("fixed"):$("header").removeClass("fixed")}),$(document).ready(function(){$("header#navbar .region-navigation nav .c-menu-main .c-menu-main__item .service-mega-menu>div>.c-menu-main__submenu:not(.level0.level1.level2.level3)>li > a, header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:last-child .service-mega-menu>div>.c-menu-main__submenu>li.c-menu-main__item--expanded > a").replaceWith(function(){return"<h6>"+$(this).html()+"</h6>"});var e=$("header#navbar .region-navigation nav .c-menu-main .c-menu-main__item:nth-child(6) .service-mega-menu>div>.c-menu-main__submenu>li:last-child>h6");992>$(window).width()&&(e.css("display","block"),e.on("click",function(){$(this).parent().toggleClass("expend-menu"),$(this).next().next().toggleClass("activeSubLink")}),e.next().on("click",function(){e.next().next().toggleClass("activeSubLink")}))}),$(window).width()>992&&($(".o-menu.c-menu-main > .c-menu-main__item--expanded > a").on("click",function(e){return e.preventDefault(),$(this).parent(".c-menu-main__item--expanded").toggleClass("open-menu").siblings().removeClass("open-menu"),!1}),$(".service-mega-menu > div > ul").addClass("menu-box")),992>$(window).width()&&($("#block-sitebranding").append('<div class="humburger-menu"><span></span><span></span><span></span></div>'),$("ul.o-menu.c-menu-main.level0 > .c-menu-main__item--expanded > a,ul.level0.level1.level2 > .c-menu-main__item--expanded > a").after('<span class="menu-arrow"></span>'),$(".humburger-menu").click(function(){$(this).toggleClass("cross"),$("#block-mainnavigation").toggleClass("menu-slide-left"),$("body").toggleClass("body-fix")}),$(".menu-arrow").click(function(){$(this).parent().closest(".c-menu-main__item--expanded").toggleClass("expend-menu").siblings().removeClass("expend-menu")}),$(".c-menu-main__item--expanded > a + .menu-arrow").click(function(){})),$("header#navbar .c-menu-main__link").on("click",function(){$(".c-menu-main__link").parents().hasClass("open-menu")?$("header#navbar").addClass("headerBg"):$("header#navbar").removeClass("headerBg")}),$(document).on("click",function(){$(".c-menu-main__item").removeClass("open-menu"),$("header#navbar").removeClass("headerBg")}),$(".service-mega-menu").on("click",function(e){e.stopPropagation()}),$(document).ready(function(){if($(".job-apply-section :input").removeAttr("placeholder"),$(".job-apply-section").find("input").on("focusin",function(){$(this).parent().find("label.js-form-required").css({top:"16px",fontSize:"12px",color:"#959595"})}),$(".job-apply-section").find("input").on("focusout",function(){this.value||$(this).parent().find("label.js-form-required").css({top:"50%",fontSize:"16px",color:"#666666"})}),$('select[name="budget"]').length){var e=$("#ppc_select_country_currency").val();$('input[data-drupal-selector="edit-currency-country"]').val(e)}}),$(document).ready(function(){var e=$("#ppc_select_country").val();$("select#edit-coutry-code-country option").each(function(){$(this).val()==e&&$(this).attr("selected","selected")}),$("select#edit-coutry-code-country--2 option").each(function(){$(this).val()==e&&$(this).attr("selected","selected")})}),$(window).scroll(function(){$(window).scrollTop()>=50&&$(".c-menu-main__link").parent().removeClass("open-menu")}),$(document).ready(function(){$(".service-mega-menu").on("mouseleave",function(){$(".c-menu-main__link").parent().removeClass("open-menu")})}),$(document).ready(function(){var e,n=(e=RegExp("[?&]ID=([^&#]*)").exec(window.location.href))?e[1]:null;n&&($('.bef-links-use-ajax ul li a[name="field_tags_target_id['+n+']"]').addClass("bef-link--selected"),$('.bef-links-use-ajax ul li a[name="field_tags_target_id['+n+']"]').trigger("click"))}),function(e){e(document).ajaxStop(function(){e(".recent-blog-tab .success-load-more ul li").each(function(){0!==e(this).find("a.bef-link--selected").length&&e(this).addClass("active-link").siblings().removeClass("active-link"),e(this).find("li").each(function(){0!==e(this).find("a.bef-link--selected").length&&e(this).parent().parent().addClass("active-tag").siblings().removeClass("active-tag")})})})}(jQuery);
+
+</script>
 </html>
+
+
